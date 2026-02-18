@@ -1,0 +1,41 @@
+
+:root {
+    --border-img      : url("border.png");
+    --bg-color          : black;
+    --font-color       : #E8E0FF;
+}
+
+a { color: #FFD1F7 }
+a:hover { color: var(--font-color); }
+
+p { padding-left: 2em; }
+
+body {
+    background-color: var(--bg-color);
+}
+
+ul { list-style: "🍇 — "; }
+
+main {
+    border-image: var(--border-img)  28 fill /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid;
+    color: var(--font-color);
+    font-family: sans-serif;
+
+    display: block;
+    margin: auto;
+    width: calc(50% - 2em);
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+h1 { margin-bottom: 0px; }
