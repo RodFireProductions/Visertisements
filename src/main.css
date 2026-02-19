@@ -1,8 +1,9 @@
 
 :root {
-    --border-img      : url("border.png");
-    --bg-color          : black;
-    --font-color       : #E8E0FF;
+    --border-img: url("border.png");
+    --bg-color: black;
+    --font-color: #E8E0FF;
+    --font-size: calc(1rem + (.5vw / 5));
 }
 
 a { color: #FFD1F7 }
@@ -12,9 +13,11 @@ p { padding-left: 2em; }
 
 body {
     background-color: var(--bg-color);
+    font-size: var(--font-size);
 }
 
 ul { list-style: "🍇 — "; }
+li { margin-bottom: 1em; }
 
 main {
     border-image: var(--border-img)  28 fill /  28px / 0 round;
