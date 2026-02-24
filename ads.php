@@ -1,7 +1,6 @@
 
 <?php
     $ads = [
-        ["The Feeble Unicorn", "RodFireProductions", "https://deadinsideartist.art/", "ads/thefeebleunicorn.png", True]
-        // ["Title", "Developer", "URL", "img", False]
+        ["The Feeble Unicorn", "RodFireProductions", "https://deadinsideartist.art/games.html#feeble", "thefeebleunicorn_rodfireproductions.png", True]
     ];
 ?>

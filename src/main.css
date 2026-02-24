@@ -42,3 +42,47 @@ header p {
 }
 
 h1 { margin-bottom: 0px; }
+
+
+textarea {
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+
+code {
+    background: #00000077;
+    font-family: monospace;
+    padding: 2px 5px;
+}
+
+.ads {
+    list-style: "";
+    padding: 0px;
+    margin: 0px;
+}
+
+.ads p {
+    padding: 0px;
+}
+
+.ads img {
+    aspect-ratio: 6 / 1;
+    width: 100%;
+}
+
+@media only screen and (max-width: 900px)  {
+    main {
+        width: calc(90% - 2em);
+    }
+}
+
+@media only screen and (max-width: 1300px)  {
+    main {
+        width: calc(80% - 2em);
+    }
+    iframe {
+        width: 95% !important;
+        height: auto !important;
+    }
+}

@@ -8,7 +8,7 @@
 <style>
     body {
         background-color: black;
-        background-image: url("<?php echo $ad[3]; ?>");
+        background-image: url("ads/<?php echo $ad[3]; ?>");
         background-size: cover;
         padding: 0px;
         margin: 0px;
@@ -63,7 +63,7 @@
         <?php echo $ad[0] ?> by <?php echo $ad[1] ?>
     </a>
     <div id="badge">
-        <a target="_top" href="https://wiki.shroom.ink/visertisements/">Visertisements</a>
+        <a target="_top" href="https://visertisements.shroom.ink/">Visertisements</a>
     </div>
     <?php
         if ($ad[4]) {
