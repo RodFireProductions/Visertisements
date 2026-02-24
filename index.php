@@ -68,7 +68,7 @@ Image:</textarea>
                             Advertisement files need to be 600x100 pixels and under 5mb. Accepted formats: png, jpeg, webp, and gif.
                         </li>
                         <li>
-                            Advertisements must link to a personal website page discussing the game with links to play it or page that hosts web version of game.
+                            Advertisements must link to a personal website page discussing the game with links to play it or page that hosts a web version of game.
                         </li>
                         <li>
                             The game can contain adult and sensitive content, but the advertisement shouldn't.
@@ -81,6 +81,7 @@ Image:</textarea>
                         </li>
                         <li>
                             Games must be complete. No demos! The length doesn't matter, just completeness.
+                            The game can still recieve updates, of course.
                         </li>
                         <li>
                             Games having queer content is not required but heavily encouraged.
